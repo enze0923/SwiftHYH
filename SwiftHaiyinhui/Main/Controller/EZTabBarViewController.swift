@@ -16,8 +16,7 @@ class EZTabBarViewController: UITabBarController {
     }
     
     override class func initialize() {
-        let tabBar = UITabBar.appearance()
-        tabBar.tintColor = UIColor.red
+        //let tabBar = UITabBar.appearance()
     }
     
     func addChildViewControllers(){

@@ -12,7 +12,7 @@ class EZMoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.yellow
+        view.backgroundColor = UIColor.clear
         title = "更多"
     }
 

@@ -12,7 +12,7 @@ class EZInvestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.darkGray
+        view.backgroundColor = UIColor.clear
         title = "投资"
     }
 

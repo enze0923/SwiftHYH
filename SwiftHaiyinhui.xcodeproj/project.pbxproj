@@ -12,6 +12,7 @@
 		B16202201DBF4FBE00173840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B162021F1DBF4FBE00173840 /* AppDelegate.swift */; };
 		B16202271DBF4FBE00173840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16202261DBF4FBE00173840 /* Assets.xcassets */; };
 		B16202351DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */; };
+		B1ACFFE31DC095BE009D808D /* UIImageCatagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */; };
 		B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */; };
 		B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */; };
 		B1E6ADE21DC03F6600CA7886 /* EZInvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */; };
@@ -45,6 +46,7 @@
 		B16202301DBF4FBF00173840 /* SwiftHaiyinhuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHaiyinhuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHaiyinhuiTests.swift; sourceTree = "<group>"; };
 		B16202361DBF4FBF00173840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageCatagory.swift; sourceTree = "<group>"; };
 		B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZGuidePageViewController.swift; sourceTree = "<group>"; };
 		B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAccountCenterViewController.swift; sourceTree = "<group>"; };
 		B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZInvestViewController.swift; sourceTree = "<group>"; };
@@ -252,9 +254,9 @@
 		B1E6ADCB1DC03E3500CA7886 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B1E6ADE31DC03F9000CA7886 /* EZHomepageViewController.swift */,
-				B1E6ADE91DC042A800CA7886 /* EZTabBarViewController.swift */,
 				B1E6ADEB1DC0444400CA7886 /* EZNavigationController.swift */,
+				B1E6ADE91DC042A800CA7886 /* EZTabBarViewController.swift */,
+				B1E6ADE31DC03F9000CA7886 /* EZHomepageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -339,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				B1E6ADE71DC0406C00CA7886 /* EZConst.swift */,
+				B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -596,6 +599,7 @@
 				B1E6ADEA1DC042A800CA7886 /* EZTabBarViewController.swift in Sources */,
 				B1E6ADE61DC03FA500CA7886 /* EZMoreViewController.swift in Sources */,
 				B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */,
+				B1ACFFE31DC095BE009D808D /* UIImageCatagory.swift in Sources */,
 				B1E6ADE41DC03F9000CA7886 /* EZHomepageViewController.swift in Sources */,
 				B16202201DBF4FBE00173840 /* AppDelegate.swift in Sources */,
 				B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */,

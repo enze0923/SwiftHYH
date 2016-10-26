@@ -12,7 +12,7 @@ class EZAccountCenterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.yellow
+        view.backgroundColor = UIColor.clear
         self.title = "账户"
     }
 

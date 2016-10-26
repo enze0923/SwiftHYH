@@ -15,9 +15,9 @@ class EZNavigationController: UINavigationController {
         
         let navBar = UINavigationBar.appearance()
         
-        navBar.barTintColor = UIColor.white
-        navBar.tintColor   = UIColor.red
-        navBar.titleTextAttributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 17.0)]
+        navBar.setBackgroundImage(UIImage.image(withColor:UIColor(red:70.0/255.0, green:157.0/255.0, blue:237.0/255.0, alpha:1.0),size:CGSize(width:100,height:64)), for: UIBarMetrics.default)
+        navBar.autoresizingMask = [UIViewAutoresizing.flexibleHeight,UIViewAutoresizing.flexibleWidth];
+        navBar.titleTextAttributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 17.0),NSForegroundColorAttributeName:UIColor.white]
         
     }
     
