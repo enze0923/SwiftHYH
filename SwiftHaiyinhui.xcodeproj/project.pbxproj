@@ -15,6 +15,14 @@
 		B16202271DBF4FBE00173840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16202261DBF4FBE00173840 /* Assets.xcassets */; };
 		B162022A1DBF4FBE00173840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16202281DBF4FBE00173840 /* LaunchScreen.storyboard */; };
 		B16202351DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */; };
+		B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */; };
+		B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */; };
+		B1E6ADE21DC03F6600CA7886 /* EZInvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */; };
+		B1E6ADE41DC03F9000CA7886 /* EZHomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE31DC03F9000CA7886 /* EZHomepageViewController.swift */; };
+		B1E6ADE61DC03FA500CA7886 /* EZMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE51DC03FA500CA7886 /* EZMoreViewController.swift */; };
+		B1E6ADE81DC0406C00CA7886 /* EZConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE71DC0406C00CA7886 /* EZConst.swift */; };
+		B1E6ADEA1DC042A800CA7886 /* EZTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE91DC042A800CA7886 /* EZTabBarViewController.swift */; };
+		B1E6ADEC1DC0444400CA7886 /* EZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADEB1DC0444400CA7886 /* EZNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,14 @@
 		B16202301DBF4FBF00173840 /* SwiftHaiyinhuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHaiyinhuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHaiyinhuiTests.swift; sourceTree = "<group>"; };
 		B16202361DBF4FBF00173840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZGuidePageViewController.swift; sourceTree = "<group>"; };
+		B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAccountCenterViewController.swift; sourceTree = "<group>"; };
+		B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZInvestViewController.swift; sourceTree = "<group>"; };
+		B1E6ADE31DC03F9000CA7886 /* EZHomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZHomepageViewController.swift; sourceTree = "<group>"; };
+		B1E6ADE51DC03FA500CA7886 /* EZMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZMoreViewController.swift; sourceTree = "<group>"; };
+		B1E6ADE71DC0406C00CA7886 /* EZConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZConst.swift; sourceTree = "<group>"; };
+		B1E6ADE91DC042A800CA7886 /* EZTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZTabBarViewController.swift; sourceTree = "<group>"; };
+		B1E6ADEB1DC0444400CA7886 /* EZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZNavigationController.swift; sourceTree = "<group>"; };
 		F3977066C2768426D7574A69 /* Pods-SwiftHaiyinhui-SwiftHaiyinhuiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHaiyinhui-SwiftHaiyinhuiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftHaiyinhui-SwiftHaiyinhuiTests/Pods-SwiftHaiyinhui-SwiftHaiyinhuiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +125,12 @@
 		B162021E1DBF4FBE00173840 /* SwiftHaiyinhui */ = {
 			isa = PBXGroup;
 			children = (
+				B1E6ADD71DC03EA700CA7886 /* GuidePage */,
+				B1E6ADBE1DC03E3500CA7886 /* Account */,
+				B1E6ADC41DC03E3500CA7886 /* Invest */,
+				B1E6ADCA1DC03E3500CA7886 /* Main */,
+				B1E6ADD01DC03E3500CA7886 /* More */,
+				B1E6ADD61DC03E3500CA7886 /* Utilities */,
 				B162021F1DBF4FBE00173840 /* AppDelegate.swift */,
 				B16202211DBF4FBE00173840 /* ViewController.swift */,
 				B16202231DBF4FBE00173840 /* Main.storyboard */,
@@ -126,6 +148,256 @@
 				B16202361DBF4FBF00173840 /* Info.plist */,
 			);
 			path = SwiftHaiyinhuiTests;
+			sourceTree = "<group>";
+		};
+		B1E6ADBE1DC03E3500CA7886 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADBF1DC03E3500CA7886 /* Controller */,
+				B1E6ADC01DC03E3500CA7886 /* Model */,
+				B1E6ADC11DC03E3500CA7886 /* NetApi */,
+				B1E6ADC21DC03E3500CA7886 /* View */,
+				B1E6ADC31DC03E3500CA7886 /* ViewModel */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		B1E6ADBF1DC03E3500CA7886 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1E6ADC01DC03E3500CA7886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1E6ADC11DC03E3500CA7886 /* NetApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetApi;
+			sourceTree = "<group>";
+		};
+		B1E6ADC21DC03E3500CA7886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1E6ADC31DC03E3500CA7886 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1E6ADC41DC03E3500CA7886 /* Invest */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADC51DC03E3500CA7886 /* Controller */,
+				B1E6ADC61DC03E3500CA7886 /* Model */,
+				B1E6ADC71DC03E3500CA7886 /* NetApi */,
+				B1E6ADC81DC03E3500CA7886 /* View */,
+				B1E6ADC91DC03E3500CA7886 /* ViewModel */,
+			);
+			path = Invest;
+			sourceTree = "<group>";
+		};
+		B1E6ADC51DC03E3500CA7886 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1E6ADC61DC03E3500CA7886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1E6ADC71DC03E3500CA7886 /* NetApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetApi;
+			sourceTree = "<group>";
+		};
+		B1E6ADC81DC03E3500CA7886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1E6ADC91DC03E3500CA7886 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1E6ADCA1DC03E3500CA7886 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADCB1DC03E3500CA7886 /* Controller */,
+				B1E6ADCC1DC03E3500CA7886 /* Model */,
+				B1E6ADCD1DC03E3500CA7886 /* NetApi */,
+				B1E6ADCE1DC03E3500CA7886 /* View */,
+				B1E6ADCF1DC03E3500CA7886 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B1E6ADCB1DC03E3500CA7886 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADE31DC03F9000CA7886 /* EZHomepageViewController.swift */,
+				B1E6ADE91DC042A800CA7886 /* EZTabBarViewController.swift */,
+				B1E6ADEB1DC0444400CA7886 /* EZNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1E6ADCC1DC03E3500CA7886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1E6ADCD1DC03E3500CA7886 /* NetApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetApi;
+			sourceTree = "<group>";
+		};
+		B1E6ADCE1DC03E3500CA7886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1E6ADCF1DC03E3500CA7886 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1E6ADD01DC03E3500CA7886 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADD11DC03E3500CA7886 /* Controller */,
+				B1E6ADD21DC03E3500CA7886 /* Model */,
+				B1E6ADD31DC03E3500CA7886 /* NetApi */,
+				B1E6ADD41DC03E3500CA7886 /* View */,
+				B1E6ADD51DC03E3500CA7886 /* ViewModel */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		B1E6ADD11DC03E3500CA7886 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADE51DC03FA500CA7886 /* EZMoreViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1E6ADD21DC03E3500CA7886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1E6ADD31DC03E3500CA7886 /* NetApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetApi;
+			sourceTree = "<group>";
+		};
+		B1E6ADD41DC03E3500CA7886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1E6ADD51DC03E3500CA7886 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1E6ADD61DC03E3500CA7886 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADE71DC0406C00CA7886 /* EZConst.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B1E6ADD71DC03EA700CA7886 /* GuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADD81DC03EA700CA7886 /* Controller */,
+				B1E6ADD91DC03EA700CA7886 /* Model */,
+				B1E6ADDA1DC03EA700CA7886 /* NetApi */,
+				B1E6ADDB1DC03EA700CA7886 /* View */,
+				B1E6ADDC1DC03EA700CA7886 /* ViewModel */,
+			);
+			path = GuidePage;
+			sourceTree = "<group>";
+		};
+		B1E6ADD81DC03EA700CA7886 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1E6ADD91DC03EA700CA7886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1E6ADDA1DC03EA700CA7886 /* NetApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetApi;
+			sourceTree = "<group>";
+		};
+		B1E6ADDB1DC03EA700CA7886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1E6ADDC1DC03EA700CA7886 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,8 +604,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E6ADEA1DC042A800CA7886 /* EZTabBarViewController.swift in Sources */,
+				B1E6ADE61DC03FA500CA7886 /* EZMoreViewController.swift in Sources */,
 				B16202221DBF4FBE00173840 /* ViewController.swift in Sources */,
+				B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */,
+				B1E6ADE41DC03F9000CA7886 /* EZHomepageViewController.swift in Sources */,
 				B16202201DBF4FBE00173840 /* AppDelegate.swift in Sources */,
+				B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */,
+				B1E6ADE81DC0406C00CA7886 /* EZConst.swift in Sources */,
+				B1E6ADEC1DC0444400CA7886 /* EZNavigationController.swift in Sources */,
+				B1E6ADE21DC03F6600CA7886 /* EZInvestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
