@@ -13,25 +13,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegat
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        
+
         if !UserDefaults.standard.bool(forKey: EZFirstLaunch) {
             window?.rootViewController = EZGuidePageViewController()
             UserDefaults.standard.set(true, forKey: EZFirstLaunch)
         } else {
-            let navi = EZTabBarViewController()
-            navi.delegate = self
-            window?.rootViewController = navi
-            
+            let tabbar = EZTabBarViewController()
+            tabbar.delegate = self
+            window?.rootViewController = tabbar
         }
-        
         window?.makeKeyAndVisible()
+        
         return true
     }
-
+    
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         
     }

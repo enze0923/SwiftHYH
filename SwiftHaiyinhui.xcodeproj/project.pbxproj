@@ -10,10 +10,7 @@
 		3D72C6F1F08990483F9DE520 /* libPods-SwiftHaiyinhui-SwiftHaiyinhuiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86566565CAF39D8F21E08129 /* libPods-SwiftHaiyinhui-SwiftHaiyinhuiTests.a */; };
 		8E66C53A4ECC9DDA5680CD97 /* libPods-SwiftHaiyinhui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AA64FB1668062D0D82C3EB /* libPods-SwiftHaiyinhui.a */; };
 		B16202201DBF4FBE00173840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B162021F1DBF4FBE00173840 /* AppDelegate.swift */; };
-		B16202221DBF4FBE00173840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16202211DBF4FBE00173840 /* ViewController.swift */; };
-		B16202251DBF4FBE00173840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16202231DBF4FBE00173840 /* Main.storyboard */; };
 		B16202271DBF4FBE00173840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16202261DBF4FBE00173840 /* Assets.xcassets */; };
-		B162022A1DBF4FBE00173840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16202281DBF4FBE00173840 /* LaunchScreen.storyboard */; };
 		B16202351DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */; };
 		B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */; };
 		B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */; };
@@ -43,10 +40,7 @@
 		86566565CAF39D8F21E08129 /* libPods-SwiftHaiyinhui-SwiftHaiyinhuiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftHaiyinhui-SwiftHaiyinhuiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B162021C1DBF4FBE00173840 /* SwiftHaiyinhui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHaiyinhui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B162021F1DBF4FBE00173840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B16202211DBF4FBE00173840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B16202241DBF4FBE00173840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B16202261DBF4FBE00173840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B16202291DBF4FBE00173840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B162022B1DBF4FBE00173840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B16202301DBF4FBF00173840 /* SwiftHaiyinhuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHaiyinhuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHaiyinhuiTests.swift; sourceTree = "<group>"; };
@@ -132,10 +126,7 @@
 				B1E6ADD01DC03E3500CA7886 /* More */,
 				B1E6ADD61DC03E3500CA7886 /* Utilities */,
 				B162021F1DBF4FBE00173840 /* AppDelegate.swift */,
-				B16202211DBF4FBE00173840 /* ViewController.swift */,
-				B16202231DBF4FBE00173840 /* Main.storyboard */,
 				B16202261DBF4FBE00173840 /* Assets.xcassets */,
-				B16202281DBF4FBE00173840 /* LaunchScreen.storyboard */,
 				B162022B1DBF4FBE00173840 /* Info.plist */,
 			);
 			path = SwiftHaiyinhui;
@@ -491,9 +482,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B162022A1DBF4FBE00173840 /* LaunchScreen.storyboard in Resources */,
 				B16202271DBF4FBE00173840 /* Assets.xcassets in Resources */,
-				B16202251DBF4FBE00173840 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,7 +595,6 @@
 			files = (
 				B1E6ADEA1DC042A800CA7886 /* EZTabBarViewController.swift in Sources */,
 				B1E6ADE61DC03FA500CA7886 /* EZMoreViewController.swift in Sources */,
-				B16202221DBF4FBE00173840 /* ViewController.swift in Sources */,
 				B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */,
 				B1E6ADE41DC03F9000CA7886 /* EZHomepageViewController.swift in Sources */,
 				B16202201DBF4FBE00173840 /* AppDelegate.swift in Sources */,
@@ -634,25 +622,6 @@
 			targetProxy = B16202311DBF4FBF00173840 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B16202231DBF4FBE00173840 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B16202241DBF4FBE00173840 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B16202281DBF4FBE00173840 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B16202291DBF4FBE00173840 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B16202371DBF4FBF00173840 /* Debug */ = {
@@ -753,6 +722,7 @@
 			baseConfigurationReference = 6A8BB6A0FACF24F597ABA610 /* Pods-SwiftHaiyinhui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3888393PV6;
 				INFOPLIST_FILE = SwiftHaiyinhui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -767,6 +737,7 @@
 			baseConfigurationReference = 5CB60432A50BB42EFAEB193B /* Pods-SwiftHaiyinhui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3888393PV6;
 				INFOPLIST_FILE = SwiftHaiyinhui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

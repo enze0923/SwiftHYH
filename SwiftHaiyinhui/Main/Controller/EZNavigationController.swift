@@ -16,7 +16,7 @@ class EZNavigationController: UINavigationController {
         let navBar = UINavigationBar.appearance()
         
         navBar.barTintColor = UIColor.white
-        navBar.tintColor   = UIColor(red: 0/255.0,green: 0/255.0,blue:0/255.0,alpha:0.7)
+        navBar.tintColor   = UIColor.red
         navBar.titleTextAttributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 17.0)]
         
     }
@@ -26,9 +26,8 @@ class EZNavigationController: UINavigationController {
             viewController.hidesBottomBarWhenPushed = true
             
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image:UIImage(named:"lefterbackicon_titlebar_28x28_"), style:.plain, target:self, action:#selector(navigationBack))
-            
-            super.pushViewController(viewController, animated: true)
         }
+        super.pushViewController(viewController, animated: true)
     }
     
     func navigationBack() {

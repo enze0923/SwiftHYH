@@ -10,7 +10,3 @@ import UIKit
 
 
 let EZFirstLaunch = "firstLaunch"
-
-class EZConst: NSObject {
-
-}
