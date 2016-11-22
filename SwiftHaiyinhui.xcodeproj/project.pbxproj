@@ -13,6 +13,7 @@
 		B16202271DBF4FBE00173840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16202261DBF4FBE00173840 /* Assets.xcassets */; };
 		B16202351DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */; };
 		B1ACFFE31DC095BE009D808D /* UIImageCatagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */; };
+		B1B405071DE434430003287C /* EZLoopScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B405061DE434430003287C /* EZLoopScrollView.swift */; };
 		B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */; };
 		B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */; };
 		B1E6ADE21DC03F6600CA7886 /* EZInvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */; };
@@ -47,6 +48,8 @@
 		B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHaiyinhuiTests.swift; sourceTree = "<group>"; };
 		B16202361DBF4FBF00173840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageCatagory.swift; sourceTree = "<group>"; };
+		B1B404FF1DE432FF0003287C /* SwiftHaiyinhui-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftHaiyinhui-Bridging-Header.h"; sourceTree = "<group>"; };
+		B1B405061DE434430003287C /* EZLoopScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoopScrollView.swift; sourceTree = "<group>"; };
 		B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZGuidePageViewController.swift; sourceTree = "<group>"; };
 		B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAccountCenterViewController.swift; sourceTree = "<group>"; };
 		B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZInvestViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +133,7 @@
 				B162021F1DBF4FBE00173840 /* AppDelegate.swift */,
 				B16202261DBF4FBE00173840 /* Assets.xcassets */,
 				B162022B1DBF4FBE00173840 /* Info.plist */,
+				B1B404FF1DE432FF0003287C /* SwiftHaiyinhui-Bridging-Header.h */,
 			);
 			path = SwiftHaiyinhui;
 			sourceTree = "<group>";
@@ -141,6 +145,14 @@
 				B16202361DBF4FBF00173840 /* Info.plist */,
 			);
 			path = SwiftHaiyinhuiTests;
+			sourceTree = "<group>";
+		};
+		B1B405051DE433970003287C /* LoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B1B405061DE434430003287C /* EZLoopScrollView.swift */,
+			);
+			path = LoopScrollView;
 			sourceTree = "<group>";
 		};
 		B1E6ADBE1DC03E3500CA7886 /* Account */ = {
@@ -340,6 +352,7 @@
 		B1E6ADD61DC03E3500CA7886 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B1B405051DE433970003287C /* LoopScrollView */,
 				B1E6ADE71DC0406C00CA7886 /* EZConst.swift */,
 				B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */,
 			);
@@ -451,6 +464,7 @@
 					B162021B1DBF4FBE00173840 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3888393PV6;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					B162022F1DBF4FBF00173840 = {
@@ -604,6 +618,7 @@
 				B16202201DBF4FBE00173840 /* AppDelegate.swift in Sources */,
 				B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */,
 				B1E6ADE81DC0406C00CA7886 /* EZConst.swift in Sources */,
+				B1B405071DE434430003287C /* EZLoopScrollView.swift in Sources */,
 				B1E6ADEC1DC0444400CA7886 /* EZNavigationController.swift in Sources */,
 				B1E6ADE21DC03F6600CA7886 /* EZInvestViewController.swift in Sources */,
 			);
@@ -727,11 +742,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3888393PV6;
 				INFOPLIST_FILE = SwiftHaiyinhui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiyinhui.SwiftHaiyinhui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHaiyinhui/SwiftHaiyinhui-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -742,11 +760,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3888393PV6;
 				INFOPLIST_FILE = SwiftHaiyinhui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiyinhui.SwiftHaiyinhui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHaiyinhui/SwiftHaiyinhui-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
