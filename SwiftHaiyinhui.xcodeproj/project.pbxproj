@@ -14,6 +14,7 @@
 		B16202351DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16202341DBF4FBF00173840 /* SwiftHaiyinhuiTests.swift */; };
 		B1ACFFE31DC095BE009D808D /* UIImageCatagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */; };
 		B1B405071DE434430003287C /* EZLoopScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B405061DE434430003287C /* EZLoopScrollView.swift */; };
+		B1B405091DE43DB20003287C /* EZLoopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B405081DE43DB20003287C /* EZLoopCollectionViewCell.swift */; };
 		B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */; };
 		B1E6ADE01DC03F3F00CA7886 /* EZAccountCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */; };
 		B1E6ADE21DC03F6600CA7886 /* EZInvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */; };
@@ -50,6 +51,7 @@
 		B1ACFFE21DC095BE009D808D /* UIImageCatagory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageCatagory.swift; sourceTree = "<group>"; };
 		B1B404FF1DE432FF0003287C /* SwiftHaiyinhui-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftHaiyinhui-Bridging-Header.h"; sourceTree = "<group>"; };
 		B1B405061DE434430003287C /* EZLoopScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoopScrollView.swift; sourceTree = "<group>"; };
+		B1B405081DE43DB20003287C /* EZLoopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoopCollectionViewCell.swift; sourceTree = "<group>"; };
 		B1E6ADDD1DC03F0B00CA7886 /* EZGuidePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZGuidePageViewController.swift; sourceTree = "<group>"; };
 		B1E6ADDF1DC03F3F00CA7886 /* EZAccountCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAccountCenterViewController.swift; sourceTree = "<group>"; };
 		B1E6ADE11DC03F6600CA7886 /* EZInvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZInvestViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B1B405061DE434430003287C /* EZLoopScrollView.swift */,
+				B1B405081DE43DB20003287C /* EZLoopCollectionViewCell.swift */,
 			);
 			path = LoopScrollView;
 			sourceTree = "<group>";
@@ -611,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1E6ADEA1DC042A800CA7886 /* EZTabBarViewController.swift in Sources */,
+				B1B405091DE43DB20003287C /* EZLoopCollectionViewCell.swift in Sources */,
 				B1E6ADE61DC03FA500CA7886 /* EZMoreViewController.swift in Sources */,
 				B1E6ADDE1DC03F0B00CA7886 /* EZGuidePageViewController.swift in Sources */,
 				B1ACFFE31DC095BE009D808D /* UIImageCatagory.swift in Sources */,
